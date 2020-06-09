@@ -1,5 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Exercise Project - Book List CRUD - powered by Redux
+
+In this exercise project we will create an app in several stage, driven by redux.
+
+We will see how we can go from first simple displaying of state to changing of state, to API fetching & updating
+
+### Step 1
+
+Prep:
+- Fork this repository
+- Clone it
+- Get into folder
+- Do `npm install`
+- Install node-sass
+- Rename your App.css to App.scss
+- Cleanup the initial App.js JSX
+
+Redux setup:
+- Install packages redux and react-redux
+- Setup up the basic Redux structure with a store and a reducer
+- Setup some initial books into your initial state
+
+Data display
+- Create a book list component
+- Make data from state available in our component using mapping of state to props
+
+
 ## Available Scripts
 
 In the project directory, you can run:
