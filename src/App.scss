@@ -1,14 +1,45 @@
 .App {
   text-align: center;
+  height: 100%;
   header {
-    height: 10vh;
+    height: 10%;
+    color: white;
+    background-color: black;
+    display: grid;
+  }
+  .add-book {
+    color: blue;
+    input {
+      margin: 5px;
+      padding: 5px;
+      &:hover {
+        border: 2px solid red;
+      }
+    }
+    button {
+      padding: 5px;
+      margin: 5px;
+    }
   }
   .booksList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
     .book {
       border: 2px solid black;
-      margin: 10px;
+      margin: 5px;
+      width: 70%;
+      p {
+        color: red;
+      }
     }
   
+  }
+  footer {
+    background-color: black;
+    color: hotpink;
+    height: 10%;
   }
 }
 

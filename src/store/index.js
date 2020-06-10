@@ -8,8 +8,7 @@ const initialState = {
         {title: 'Words of Fire', author: 'essays by different Black women'},
         {title: 'Playing in the Dark', author: 'Toni Morrison'},
         {title: 'In Search Of Our Mother’s Gardens: Womanist Prose', author: 'Alice Walker'},
-        {title: 'Sisters Of The Yam', author: 'Yaba Blay'},
-
+        {title: 'Sisters Of The Yam', author: 'Yaba Blay'}
     ]
 };
 
