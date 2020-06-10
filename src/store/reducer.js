@@ -5,13 +5,15 @@ const rootReducer = (state, action) => {
   switch(action.type) {
     case "ADD_BOOK":
       let newBook = action.payload;
-      return {...state, books: [...state.books, newBook]};
+
+      let booksUpdated = [...state.books, newBook];
+      let stateCopy = {...state, books: booksUpdated}
+      return stateCopy;
 
     default:
       return state
     }
-    
-    return state
+
   }
   
   export default rootReducer
