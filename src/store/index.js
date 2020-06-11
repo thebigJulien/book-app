@@ -9,7 +9,8 @@ const initialState = {
         {title: 'Playing in the Dark', author: 'Toni Morrison'},
         {title: 'In Search Of Our Mother’s Gardens: Womanist Prose', author: 'Alice Walker'},
         {title: 'Sisters Of The Yam', author: 'Yaba Blay'}
-    ]
+    ],
+    searchBook: ''
 };
 
 let store = createStore(rootReducer, initialState);

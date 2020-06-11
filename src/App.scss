@@ -11,6 +11,15 @@
     background-color: black;
     display: grid;
   }
+  .search-author {
+    h4 {
+      color: blue;
+    }
+    input {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  }
   .add-book {
     color: blue;
     input {

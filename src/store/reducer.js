@@ -10,6 +10,9 @@ const rootReducer = (state, action) => {
       let stateCopy = {...state, books: booksUpdated}
       return stateCopy;
 
+    case "FILTER_BOOK":
+      return {...state, filterBook: action.payload}
+
     default:
       return state
     }
