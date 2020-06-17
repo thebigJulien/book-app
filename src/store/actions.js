@@ -33,7 +33,7 @@ export const addNewBook = (books) => (
     {type: 'ADD_BOOK', payload: books}
 )
 
-export const filterBook = (author) => (
-    {type: 'FILTER_BOOK', payload: author}
+export const filterBook = (books) => (
+    {type: 'FILTER_BOOK', payload: books}
 )
 
