@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Black Feminist Thought",
+      "author": "Patricia Collins"
+    },
+    {
+      "id": 2,
+      "title": "The Black Woman, An Anthology",
+      "author": "Toni Cade Bambara"
+    },
+    {
+      "id": 3,
+      "title": "Words of Fire",
+      "author": "essays by different Black women"
+    },
+    {
+      "id": 4,
+      "title": "Playing in the Dark",
+      "author": "Toni Morrison"
+    },
+    {
+      "id": 5,
+      "title": "In Search Of Our Mother’s Gardens: Womanist Prose",
+      "author": "Alice Walker"
+    },
+    {
+      "id": 6,
+      "title": "Sisters Of The Yam",
+      "author": "Yaba Blay"
+    },
+    {
+      "title": "Sister outsider",
+      "author": "Audre Lorde",
+      "id": 7
+    },
+    {
+      "title": "Ain't I a Woman: Black Women and Feminism",
+      "author": " Bell Hooks",
+      "id": 8
+    }
+  ]
+}

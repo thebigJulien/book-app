@@ -1,8 +1,11 @@
 const rootReducer = (state, action) => {
 
-  
-
   switch(action.type) {
+
+    case "FETCH_BOOKS":
+      let booksApi = action.payload
+      return {...state, books: booksApi}
+
     case "ADD_BOOK":
       let newBook = action.payload;
 
@@ -15,6 +18,7 @@ const rootReducer = (state, action) => {
 
     default:
       return state
+    
     }
 
   }

@@ -1,18 +1,12 @@
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import rootReducer from './reducer';
+import thunk from 'redux-thunk';
 
 const initialState = {
-    books: [
-        {title: 'Black Feminist Thought', author: 'Patricia Collins'},
-        {title: 'The Black Woman, An Anthology', author: 'Toni Cade Bambara'},
-        {title: 'Words of Fire', author: 'essays by different Black women'},
-        {title: 'Playing in the Dark', author: 'Toni Morrison'},
-        {title: 'In Search Of Our Mother’s Gardens: Womanist Prose', author: 'Alice Walker'},
-        {title: 'Sisters Of The Yam', author: 'Yaba Blay'}
-    ],
+    books: [],
     searchBook: ''
 };
 
-let store = createStore(rootReducer, initialState);
+let store = createStore(rootReducer, initialState, applyMiddleware(thunk));
 
 export default store

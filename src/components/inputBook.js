@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {addNewBook} from '../store/actions';
+import {postBook} from '../store/actions';
 
 class AddBook extends Component {
     state = {
@@ -14,9 +14,9 @@ class AddBook extends Component {
             <h4>Add a book to our collection</h4>
             <input onChange={(e) => this.setState({title: e.target.value})} placeholder="title..." type="text" name="title"/>
             <input onChange={(e) => this.setState({author: e.target.value})} placeholder="author..." type="text" name="author"/>
-            <button onClick={() => this.props.addNewBook(this.state.title, this.state.author)}>ADD</button>
+            <button onClick={() => this.props.postBook(this.state.title, this.state.author)}>ADD</button>
         </div> );
     }
 }
  
-export default connect(null, {addNewBook})(AddBook);
+export default connect(null, {postBook})(AddBook);
